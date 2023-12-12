@@ -1,0 +1,15 @@
+.app__categories {
+  width: 100%;
+}
+
+.app__categories-images_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.app__categories-images_container img {
+  width: 200px;
+}

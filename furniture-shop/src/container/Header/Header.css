@@ -1,0 +1,36 @@
+.app__header{
+    background: url('../../assets/header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.app__header-content{
+   margin-left: 150px;
+   width: 500px;
+   color: var(--color-black); 
+   font-size: 1.4rem;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.app__header-arrows{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 90%;
+    align-items: center;
+    position: absolute;
+}
+
+.header__arrow-icon{
+   font-size: 3rem;
+   color: var(--color-white)
+}

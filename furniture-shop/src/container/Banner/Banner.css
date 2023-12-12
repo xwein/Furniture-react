@@ -1,0 +1,41 @@
+.app__banner{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.app__banner-item{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: var(--color-white);
+    padding: 2%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.app__banner-item img{
+    width: 270px;
+}
+
+.app__banner-item_content{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app__banner-item_content :nth-child(2) {
+    color: var(--color-gray);
+    font-size: 0.9rem;
+}
+
+.app__banner-item_content-p{
+    color: var(--color-black);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
