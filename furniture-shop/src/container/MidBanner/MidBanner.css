@@ -1,0 +1,30 @@
+.app__midBanner{
+    width: 100%;
+    padding:0 118px;
+    gap: 7%;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.app__midBanner-image_container{
+    width: 57%;
+}
+
+.app__midBanner-image_container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.app__midBanner-content_container{
+    width: 500px;
+    margin-right: 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__midBanner-content_container :nth-child(2){
+    color: var(--color-gray);
+}

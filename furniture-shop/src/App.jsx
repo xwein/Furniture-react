@@ -1,6 +1,6 @@
 import { Navbar } from './components';
 import './App.css'
-import { Header,Banner,Categories} from './container';
+import { Header,Banner,Categories, NewProducts, MidBanner,WeekProducts,EndBanner, RecentBlog} from './container';
 
 function App() {
 
@@ -10,6 +10,11 @@ function App() {
       <Header/>
       <Banner/>
       <Categories/>
+      <NewProducts/>
+      <MidBanner/>
+      <WeekProducts/>
+      <EndBanner/>
+      <RecentBlog/>
     </>
   )
 }

@@ -8,5 +8,11 @@
   background-color: var(--color-black);
   color: var(--color-white);
   border: none;
+  cursor: pointer;
+}
+
+.price-tag{
+  color: var(--color-brown);
+  font-weight: 700;
 }
 

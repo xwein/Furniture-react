@@ -11,6 +11,8 @@ const categoriesImages = [
   images.category6,
 ];
 
+const categoryNames = ["Bed", "Chair", "Cupboard", "Lamp", "Sofa", "Table"];
+
 const Categories = () => {
   return (
     <div className="app__categories">
@@ -21,7 +23,8 @@ const Categories = () => {
             className="app__categories-images_card "
             key={`category_image-${index + 1}`}
           >
-            <img src={image} alt="category_image" />
+            <img src={image} alt={`category_image_${index + 1}`} />
+            <p>{categoryNames[index]}</p>
           </div>
         ))}
       </div>
