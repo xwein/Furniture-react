@@ -23,7 +23,13 @@ import eyeIcon from "../assets/eye-icon.png";
 import midBanner  from "../assets/midBanner.png";
 import endBanner from "../assets/end-banner.png";
 import brandLogo from "../assets/brand-logo.png";
-
+import blog1 from "../assets/blog1.png";
+import blog2 from "../assets/blog2.png";
+import blog3 from "../assets/blog3.png";
+import upperFooter from "../assets/upper-footer.png";
+import whiteLogo from "../assets/logo-white.png";
+import phoneIcon from "../assets/phone-icon.png";
+import mailIcon from "../assets/mail-icon.png";
 
 export default {
   header,
@@ -51,4 +57,11 @@ export default {
   midBanner,
   endBanner,
   brandLogo,
+  blog1,
+  blog2,
+  blog3,
+  upperFooter,
+  whiteLogo,
+  phoneIcon,
+  mailIcon,
 };

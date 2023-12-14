@@ -6,6 +6,8 @@ import MidBanner from './MidBanner/MidBanner';
 import EndBanner from './EndBanner/EndBanner';
 import WeekProducts from './WeekProducts/WeekProducts';
 import RecentBlog from './RecentBlog/RecentBlog';
+import LowerFooter from './LowerFooter/LowerFooter';
+import UpperFooter from './UpperFooter/UpperFooter';
 
 
 
@@ -18,4 +20,6 @@ export {
   WeekProducts,
   RecentBlog,
   EndBanner,
+  LowerFooter,
+  UpperFooter,
 };

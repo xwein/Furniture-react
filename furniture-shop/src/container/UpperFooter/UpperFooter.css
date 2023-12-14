@@ -1,0 +1,49 @@
+.app__upperFooter {
+  background: url("../../assets/upper-footer.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: 8rem;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.app__upperFooter-overlay {
+  position: absolute;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 350px;
+  opacity: 0.5;
+}
+
+.app__upperFooter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 5;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.app__upperFooter-content form {
+  position: relative;
+}
+
+#email {
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+.custom__button {
+  position: absolute;
+  right: 3%;
+  top: 14%;
+}
