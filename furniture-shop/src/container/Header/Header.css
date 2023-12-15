@@ -1,5 +1,4 @@
 .app__header{
-    background: url('../../assets/header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -28,9 +27,11 @@
     gap: 90%;
     align-items: center;
     position: absolute;
+    
 }
 
 .header__arrow-icon{
    font-size: 3rem;
-   color: var(--color-white)
+   color: var(--color-white);
+   cursor: pointer;
 }

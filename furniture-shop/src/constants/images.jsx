@@ -1,4 +1,6 @@
 import header from "../assets/header.jpg";
+import header1 from "../assets/header1.jpg";
+import header2 from "../assets/header2.jpg";
 import logo from "../assets/logo.png";
 import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
@@ -30,6 +32,12 @@ import upperFooter from "../assets/upper-footer.png";
 import whiteLogo from "../assets/logo-white.png";
 import phoneIcon from "../assets/phone-icon.png";
 import mailIcon from "../assets/mail-icon.png";
+import facebook from "../assets/Facebook.png";
+import whatsapp from "../assets/WhatsApp.png";
+import linkedin from "../assets/LinkedIn.png";
+import instagram from "../assets/Instagram.png";
+import twitter from "../assets/Twitter.png";
+
 
 export default {
   header,
@@ -64,4 +72,12 @@ export default {
   whiteLogo,
   phoneIcon,
   mailIcon,
+  instagram,
+  twitter,
+  facebook,
+  linkedin,
+  whatsapp,
+  header1,
+  header2,
+
 };

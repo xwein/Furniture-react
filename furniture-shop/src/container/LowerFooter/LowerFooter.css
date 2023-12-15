@@ -1,0 +1,64 @@
+.app__LowerFooter {
+  width: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__LowerFooter-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84.5%;
+  height: 90%;
+  gap: 10%;
+  border-bottom: 1px solid var(--color-white);
+}
+
+.app__LowerFooter-content_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+#app__LowerFooter-content_contact-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#app__LowerFooter-content_contact-info img{
+    width: 30px;
+}
+
+.app__LowerFooter-content > div:first-child {
+  width: 350px;
+}
+
+.app__LowerFooter-content > div:first-child img{
+    width: 230px;
+}
+
+.app__lowerFooter-credentials {
+  height: 70px;
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48%;
+}
+
+.app__lowerFooter-credentials_social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}

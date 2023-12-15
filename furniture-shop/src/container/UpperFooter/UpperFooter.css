@@ -42,7 +42,7 @@
   padding-left: 1rem;
 }
 
-.custom__button {
+#subscribe__button {
   position: absolute;
   right: 3%;
   top: 14%;

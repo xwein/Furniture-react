@@ -17,7 +17,7 @@ const UpperFooter = () => {
             id="email"
             placeholder="Enter your email adress"
           />
-          <button className="custom__button">Subscribe</button>
+          <button className="custom__button" id="subscribe__button">Subscribe</button>
         </form>
       </div>
     </div>
