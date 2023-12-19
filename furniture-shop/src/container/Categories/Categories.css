@@ -30,3 +30,24 @@
   color: var(--color-gray);
   font-size: 1rem;
 }
+
+@media screen and (max-width: 1150px) {
+  .app__categories-images_container{
+    flex-wrap: wrap;
+  }
+
+  .app__categories-images_container img{
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__categories-images_container{
+    flex-wrap: wrap;
+  }
+
+  .app__categories-images_container img{
+    width: 65px;
+  }
+
+}

@@ -51,7 +51,7 @@
   z-index: 3;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   width: 300px;
   height: 100vh;
   background-color: white;
@@ -59,8 +59,10 @@
   left: 0;
 }
 
-.no-scroll{
-  margin: 0; height: 100%; overflow: hidden
+.no-scroll {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 .app__navbar-smallscreen_overlay img {
@@ -132,8 +134,6 @@
   justify-content: space-between;
 }
 
-
-
 /* End of sidebar overlay general rules */
 
 @media screen and (max-width: 1150px) {
@@ -143,7 +143,7 @@
 
   .app__navbar-icons {
     font-size: 1.3rem;
-    gap: 30px;
+    gap: 1rem;
   }
 
   .app__navbar-icons svg:first-child {
@@ -155,24 +155,72 @@
     font-size: 2rem;
     cursor: pointer;
   }
+
+  .app__navbar-icons {
+    gap: 12px;
+  }
+  .app__navbar-smallscreen_overlay-socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 10px;
+  }
+
+  .app__navbar-smallscreen_overlay-socials svg {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .app__navbar-smallscreen_overlay {
+    width: 50%;
+  }
+
+  .app__navbar-smallscreen_overlay-policy {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+  }
+  .app__navbar-smallscreen_overlay-policy p {
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+  }
+
+  .app__navbar-smallscreen_overlay-policy :last-child {
+    font-size: 0.9rem;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .app__navbar {
     padding: 1rem;
   }
-  .app__navbar-icons_sidebar{
+
+  .app__navbar-smallscreen_overlay {
+    width: 100%;
+  }
+  .app__navbar-icons_sidebar {
     font-size: 1.2rem;
   }
 
   .app__navbar img {
     width: 140px;
   }
-
-
-  .app__navbar-smallscreen_overlay{
-    width: 100%;
-    
+  .app__navbar-smallscreen_overlay-policy :last-child {
+    font-size: 0.7rem;
   }
 
+  .app__navbar-smallscreen_overlay-policy p {
+    font-size: 0.8rem;
+  }
+
+  .app__navbar-smallscreen_overlay-policy {
+    margin-top: 1rem;
+  }
+  .app__navbar-smallscreen_overlay-socials svg {
+    font-size: 1.3rem;
+  }
 }

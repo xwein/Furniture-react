@@ -16,3 +16,10 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 1150px) {
+  .custom__button{
+    font-size: 0.9rem;
+  }
+}
+
+

@@ -19,6 +19,14 @@
   border-bottom: 1px solid var(--color-white);
 }
 
+.app__LowerFooter-content :nth-child(2) p {
+  cursor: pointer;
+}
+
+.app__LowerFooter-content :nth-child(3) p {
+  cursor: pointer;
+}
+
 .app__LowerFooter-content_card {
   display: flex;
   flex-direction: column;
@@ -33,16 +41,23 @@
   gap: 5px;
 }
 
-#app__LowerFooter-content_contact-info img{
-    width: 30px;
+.app__LowerFooter-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+#app__LowerFooter-content_contact-info img {
+  width: 30px;
 }
 
 .app__LowerFooter-content > div:first-child {
   width: 350px;
 }
 
-.app__LowerFooter-content > div:first-child img{
-    width: 230px;
+.app__LowerFooter-content > div:first-child img {
+  width: 230px;
 }
 
 .app__lowerFooter-credentials {
@@ -61,4 +76,70 @@
   justify-content: center;
   gap: 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__LowerFooter {
+    height: 350px;
+  }
+  .app__LowerFooter-content {
+    font-size: smaller;
+    padding: 0;
+    height: 65%;
+    width: 90%;
+  }
+
+  .app__LowerFooter-content-wrapper {
+    width: 400px;
+  }
+
+  .app__LowerFooter-content > div:first-child img {
+    width: 200px;
+  }
+
+  .app__lowerFooter-credentials {
+    font-size: smaller;
+    gap: 30%;
+    height: auto;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__LowerFooter {
+    height: 700px;
+    justify-content: flex-start;
+    padding-top: 1.5rem;
+    gap:10px;
+  }
+
+  .app__LowerFooter-content > div:first-child {
+    width: 300px;
+  }
+
+  .app__LowerFooter-content > div:first-child img {
+    align-self: center;
+    width: 180px;
+  }
+  .app__LowerFooter-content {
+    flex-direction: column;
+    font-size: smaller;
+    height: 630px;
+  }
+
+  .app__LowerFooter-content-wrapper {
+    width: 300px;
+  }
+
+  .app__lowerFooter-credentials {
+    font-size: smaller;
+    gap: 30%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .app__lowerFooter-credentials{
+    gap: 4%;
+    padding:20px;
+  }
 }

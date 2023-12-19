@@ -29,6 +29,7 @@
   z-index: 5;
   text-align: center;
   color: var(--color-white);
+  padding: 0 50%;
 }
 
 .app__upperFooter-content form {
@@ -46,4 +47,29 @@
   position: absolute;
   right: 3%;
   top: 14%;
+}
+
+@media screen and (max-width: 650px){
+
+  .app__upperFooter-content{
+    width: 350px;
+    padding: 30px;
+  }
+  .app__upperFooter-content h1{
+    font-size: 1.2rem;
+  }
+
+  .app__upperFooter-content p{
+    font-size: 0.9rem;
+  }
+
+  #email{
+    width: 350px;
+    height: 40px;
+  }
+
+  #subscribe__button{
+    font-size: smaller;
+    height: 30px;
+  }
 }

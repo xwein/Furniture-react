@@ -13,17 +13,19 @@ const LowerFooter = () => {
             elevate your home with comfort and sophistication.
           </p>
         </div>
-        <div className="app__LowerFooter-content_card">
-          <h3>Customer</h3>
-          <p>About Us</p>
-          <p>Shop</p>
-          <p>Blog</p>
-        </div>
-        <div className="app__LowerFooter-content_card">
-          <h3>Information</h3>
-          <p>Contact</p>
-          <p>FAQ</p>
-          <p>Service</p>
+        <div className="app__LowerFooter-content-wrapper">
+          <div className="app__LowerFooter-content_card">
+            <h3>Customer</h3>
+            <p>About Us</p>
+            <p>Shop</p>
+            <p>Blog</p>
+          </div>
+          <div className="app__LowerFooter-content_card">
+            <h3>Information</h3>
+            <p>Contact</p>
+            <p>FAQ</p>
+            <p>Service</p>
+          </div>
         </div>
         <div className="app__LowerFooter-content_card">
           <h3>Contact Info</h3>

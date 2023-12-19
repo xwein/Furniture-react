@@ -6,6 +6,11 @@ import { BsCart3 } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 import { IoIosArrowForward } from "react-icons/io";
+import {
+  TiSocialInstagram,
+  TiSocialTwitter,
+  TiSocialFacebook,
+} from "react-icons/ti";
 
 import "./Navbar.css";
 
@@ -22,26 +27,26 @@ const Navbar = () => {
         ".app__navbar-smallscreen_overlay"
       );
       const isHamburgerMenu = e.target.closest(".app__navbar-icons_sidebar");
-  
+
       if (toggleMenu && isOutsideSidebar && !isHamburgerMenu) {
         setToggleMenu(false);
       }
     };
-  
+
     document.body.addEventListener("click", closeSidebarOnClickOutside);
 
     if (toggleMenu) {
-      document.body.classList.add('no-scroll');
-      document.documentElement.classList.add('no-scroll');
+      document.body.classList.add("no-scroll");
+      document.documentElement.classList.add("no-scroll");
     } else {
-      document.body.classList.remove('no-scroll');
-      document.documentElement.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
+      document.documentElement.classList.remove("no-scroll");
     }
-  
+
     return () => {
       document.body.removeEventListener("click", closeSidebarOnClickOutside);
       // Remove body class when component unmounts
-      document.body.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
     };
   }, [toggleMenu]);
 
@@ -119,6 +124,21 @@ const Navbar = () => {
                 <p>Log In</p>
                 <IoIosArrowForward />
               </div>
+            </div>
+            <div className="app__navbar-smallscreen_overlay-socials">
+              <TiSocialInstagram />
+              <TiSocialTwitter />
+              <TiSocialFacebook />
+            </div>
+            <div className="app__navbar-smallscreen_overlay-policy">
+              <p>Terms & Conditions</p>
+              <p>Privacy Policy</p>
+              <p>Other Policies</p>
+              <p>
+                © Furnitura 2023. All rights reserved. All content on this
+                website is the exclusive property of Furnitura. Unauthorized use
+                is prohibited. For inquiries, contact our social links.
+              </p>
             </div>
           </div>
         </>

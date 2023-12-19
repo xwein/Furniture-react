@@ -13,6 +13,7 @@
   border-radius: 10px;
   gap: 2.5rem;
   padding: 0 5%;
+  padding-right: 30%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -33,13 +34,69 @@
   width: 80%;
 }
 
-.app__brandLogo-container{
-    margin-top: 8rem;
-    width: 1519px;
-    height: 100px;
-    padding: 0 20%;
+.app__brandLogo-container {
+  margin-top: 8rem;
+  width: 1519px;
+  height: 100px;
+  padding: 0 20%;
 }
 
-.app__brandLogo-container img{
-    width: 100%;
+.app__brandLogo-container img {
+  width: 100%;
 }
+
+@media screen and (max-width: 1150px) {
+  .app__EndBanner {
+    justify-content: center;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .app__EndBanner-content_container {
+    padding-right: 40%;
+  }
+
+  .app__EndBanner-image_container img {
+    width: 70%;
+  }
+
+  .app__EndBanner-image_container {
+    right: -7%;
+    top: -10%;
+  }
+
+  .app__brandLogo-container {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__EndBanner {
+    padding: 0 10px;
+  }
+
+  .app__EndBanner-content_container {
+    padding-right: 40%;
+    font-size: smaller;
+  }
+
+  .app__EndBanner-image_container img {
+    width: 50%;
+  }
+
+  .app__EndBanner-image_container {
+    right: -45%;
+    top: 25%;
+  }
+
+  .app__brandLogo-container {
+    width: auto;
+  }
+
+  .app__brandLogo-container{
+    padding: 0 20px;
+  }
+}
+
+

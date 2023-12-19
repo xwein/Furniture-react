@@ -40,3 +40,40 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1150px) {
+    .app__banner-item img{
+        width: 150px;
+    }
+
+    .app__banner-item_content :nth-child(2){
+        font-size: 0.8rem;
+    }
+
+    .app__banner-item_content h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+   
+    .app__banner{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .app__banner-item img{
+        width: 130px;
+    }
+
+    .app__banner-item{
+        width: auto;
+    }
+
+    .app__banner-item_content :nth-child(2){
+        font-size: 0.8rem;
+    }
+
+    .app__banner-item_content h2{
+        font-size: 1.2rem;
+    }
+}

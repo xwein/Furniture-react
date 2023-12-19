@@ -9,7 +9,7 @@ const EndBanner = () => {
       <div className="app__EndBanner-content_container">
         <h2>Styish Minimal Chair</h2>
         <p>
-        Experience comfort in sleek style with our stylish minimal chairs. Effortlessly elevate any space <br></br> with modern design and comfort in mind.
+        Experience comfort in sleek style with our stylish minimal chairs. Effortlessly elevate any space  with modern design and comfort in mind.
         </p>
         <button className="custom__button" type="button">
           Shop Now
