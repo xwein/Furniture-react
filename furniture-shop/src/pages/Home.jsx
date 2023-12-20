@@ -1,12 +1,10 @@
-import { Header,Banner,Categories, NewProducts, MidBanner,WeekProducts,EndBanner, RecentBlog,UpperFooter, LowerFooter} from '../container/index';
-import { Navbar } from '../components/Navbar';
+import { Header,Banner,Categories, NewProducts, MidBanner,WeekProducts,EndBanner, RecentBlog} from '../containerHome';
 
 
 function Home() {
 
     return (
       <>
-        <Navbar />
         <Header/>
         <Banner/>
         <Categories/>
@@ -15,8 +13,7 @@ function Home() {
         <WeekProducts/>
         <EndBanner/>
         <RecentBlog/>
-        <UpperFooter/>
-        <LowerFooter/>
+        
       </>
     )
   }

@@ -1,0 +1,77 @@
+.app__aboutBanner {
+  margin-top: 5rem;
+  width: 100%;
+  height: 380px;
+  background-image: url(../../assets/about-banner-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 8rem;
+  gap: 1.2rem;
+  position: relative;
+  text-align: center;
+}
+
+.app__aboutBanner img {
+  width: 120px;
+  position: absolute;
+  left: 9%;
+  bottom: 7%;
+}
+
+.app__aboutBanner h1 {
+  color: var(--color-white);
+  font-size: 2.5rem;
+}
+
+.app__aboutBanner button {
+  margin-left: 4rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .app__aboutBanner {
+    align-items: flex-end;
+    font-size: smaller;
+    padding-right: 2rem;
+  }
+
+  .app__aboutBanner-text h1 {
+    font-size: 2rem;
+  }
+
+  .app__aboutBanner button {
+    margin-right: 3.5rem;
+  }
+
+  .app__aboutBanner img {
+    left: 70%;
+    bottom: 12%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__aboutBanner {
+    background-image: url(../../assets/about-banner1.jpg);
+    align-items: center;
+    justify-content: space-around;
+    gap: 8rem;
+    padding: 1rem 0;
+  }
+
+  .app__aboutBanner-text h1 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+  }
+
+  .app__aboutBanner img {
+    left: 30%;
+    bottom: -3%;
+    width: 80px;
+    filter: brightness(0) saturate(100%);
+  }
+}

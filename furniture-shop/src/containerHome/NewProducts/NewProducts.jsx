@@ -61,13 +61,13 @@ const NewProducts = () => {
             <div className="app__products-image_container">
               <img src={image} alt={`product_image_${index + 1}`} />
               {hoveredIndex === index && (
-              <div className="app__products-images_icons">
-                <div>
-                  <img src={images.favouriteIcon} alt="favourite-icon" />
-                  <img src={images.eyeIcon} alt="eye-icon" />
+                <div className="app__products-images_icons">
+                  <div>
+                    <img src={images.favouriteIcon} alt="favourite-icon" />
+                    <img src={images.eyeIcon} alt="eye-icon" />
+                  </div>
+                  <img src={images.addIcon} alt="add-icon" />
                 </div>
-                <img src={images.addIcon} alt="add-icon" />
-              </div>
               )}
             </div>
             <p>{productNames[index]}</p>

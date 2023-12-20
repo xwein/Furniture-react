@@ -37,7 +37,12 @@ import whatsapp from "../assets/WhatsApp.png";
 import linkedin from "../assets/LinkedIn.png";
 import instagram from "../assets/Instagram.png";
 import twitter from "../assets/Twitter.png";
-
+import aboutHeader from "../assets/about-header.png"
+import aboutBanner from "../assets/about-banner.png"
+import aboutTeam from "../assets/meet-team.png"
+import aboutTeam1 from "../assets/meet-team1.png"
+import aboutTeam2 from "../assets/meet-team2.png"
+import aboutTeam3 from "../assets/meet-team3.png"
 
 export default {
   header,
@@ -79,5 +84,12 @@ export default {
   whatsapp,
   header1,
   header2,
+  aboutHeader,
+  aboutBanner,
+  aboutTeam,
+  aboutTeam1,
+  aboutTeam2,
+  aboutTeam3,
+
 
 };

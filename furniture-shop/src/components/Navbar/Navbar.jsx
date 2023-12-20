@@ -11,7 +11,7 @@ import {
   TiSocialTwitter,
   TiSocialFacebook,
 } from "react-icons/ti";
-
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -61,19 +61,19 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li>
-          <a href="#home">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#menu">Shop</a>
+          <Link to="/shop">Shop</Link>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       <div className="app__navbar-icons">
@@ -98,23 +98,23 @@ const Navbar = () => {
 
             <ul className="app__navbar-smallscreenlinks">
               <li>
-                <a href="#home">Home</a>
+                <Link to="/home">Home</Link>
                 <IoIosArrowForward />
               </li>
               <li>
-                <a href="#about">About</a>
+                <Link to="/about">About</Link>
                 <IoIosArrowForward />
               </li>
               <li>
-                <a href="#menu">Shop</a>
+                <Link to="/menu">Shop</Link>
                 <IoIosArrowForward />
               </li>
               <li>
-                <a href="#blog">Blog</a>
+                <Link to="/blog">Blog</Link>
                 <IoIosArrowForward />
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <Link to="/contact">Contact</Link>
                 <IoIosArrowForward />
               </li>
             </ul>
