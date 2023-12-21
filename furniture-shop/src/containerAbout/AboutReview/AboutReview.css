@@ -1,0 +1,95 @@
+.app__aboutReview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__aboutReview-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.app__aboutReview-container_card {
+  background-color: var(--color-white);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  width: 650px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.app__aboutReview-container_card h2 {
+  font-size: 1.8rem;
+}
+
+.app__aboutReview-container_card :nth-child(3) {
+  color: var(--color-gray);
+}
+
+.app__aboutReview-container_card-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app__aboutReview-container_card-wrapper_text :nth-child(1) {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.app__aboutReview-container_card-wrapper_text :last-child {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__aboutReview-container {
+    padding: 0 2rem;
+  }
+
+  .app__aboutReview-container_card {
+    height: 350px;
+    font-size: smaller;
+    padding:  1rem;
+  }
+  img[alt*="about-review"] {
+    width: 40px;
+  }
+
+  img[alt*="client-photo"] {
+    width: 40px;
+  }
+
+  .app__aboutReview-container_card-wrapper_text :nth-child(1) {
+    font-size: 1rem;
+  }
+
+  .app__aboutReview-container_card-wrapper_text :last-child {
+    font-size: 0.8rem;
+  }
+
+  .app__aboutReview-container_card h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutReview-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .app__aboutReview-container_card{
+        width: 330px;
+    }
+}

@@ -22,7 +22,7 @@ import newProduct7 from "../assets/new-product7.png";
 import addIcon from "../assets/add-icon.png";
 import favouriteIcon from "../assets/favourite-icon.png";
 import eyeIcon from "../assets/eye-icon.png";
-import midBanner  from "../assets/midBanner.png";
+import midBanner from "../assets/midBanner.png";
 import endBanner from "../assets/end-banner.png";
 import brandLogo from "../assets/brand-logo.png";
 import blog1 from "../assets/blog1.png";
@@ -37,12 +37,23 @@ import whatsapp from "../assets/WhatsApp.png";
 import linkedin from "../assets/LinkedIn.png";
 import instagram from "../assets/Instagram.png";
 import twitter from "../assets/Twitter.png";
-import aboutHeader from "../assets/about-header.png"
-import aboutBanner from "../assets/about-banner.png"
-import aboutTeam from "../assets/meet-team.png"
-import aboutTeam1 from "../assets/meet-team1.png"
-import aboutTeam2 from "../assets/meet-team2.png"
-import aboutTeam3 from "../assets/meet-team3.png"
+import aboutHeader from "../assets/about-header.png";
+import aboutBanner from "../assets/about-banner.png";
+import aboutTeam from "../assets/meet-team.png";
+import aboutTeam1 from "../assets/meet-team1.png";
+import aboutTeam2 from "../assets/meet-team2.png";
+import aboutTeam3 from "../assets/meet-team3.png";
+import aboutReview from "../assets/about-review.png";
+import aboutReview1 from "../assets/about-review1.png";
+import aboutReview2 from "../assets/about-review2.png";
+import contactPhone from "../assets/contact-phone.png";
+import contactMail from "../assets/contact-mail.png";
+import contactSite from "../assets/contact-site.png";
+import contactInstagram from "../assets/contact-instagram.png";
+import contactFacebook from "../assets/contact-facebook.png";
+import contactWhatsapp from "../assets/contact-whatsapp.png";
+import contactTwitter from "../assets/contact-twitter.png";
+import contactLinkedin from "../assets/contact-linkedin.png";
 
 export default {
   header,
@@ -90,6 +101,15 @@ export default {
   aboutTeam1,
   aboutTeam2,
   aboutTeam3,
-
-
+  aboutReview,
+  aboutReview1,
+  aboutReview2,
+  contactPhone,
+  contactMail,
+  contactSite,
+  contactInstagram,
+  contactFacebook,
+  contactWhatsapp,
+  contactTwitter,
+  contactLinkedin,
 };

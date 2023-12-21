@@ -1,24 +1,34 @@
-.app__aboutTeam_container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+.app__aboutTeam_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
 
-.app__aboutTeam_container-card_photo img{
-    width: 300px;
+.app__aboutTeam_container-card_photo img {
+  width: 300px;
 }
 
-.app__aboutTeam_container-card{
-    text-align: center;
+.app__aboutTeam_container-card {
+  text-align: center;
 }
 
-.app__aboutTeam_container-card :last-child{
-    color: var(--color-gray);
-    font-size: 0.9rem;
+.app__aboutTeam_container-card :last-child {
+  color: var(--color-gray);
+  font-size: 0.9rem;
 }
 
-.app__aboutTeam_container-card :nth-child(2){
-    font-size: 1.1rem;
-    font-weight: 700;
+.app__aboutTeam_container-card :nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__aboutTeam_container {
+    flex-wrap: wrap;
+  }
+
+  .app__aboutTeam_container-card_photo img {
+    width: 250px;
+  }
 }

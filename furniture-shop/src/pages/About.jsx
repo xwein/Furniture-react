@@ -1,4 +1,4 @@
-import { AboutHeader, AboutBanner ,AboutTeam} from "../containerAbout";
+import { AboutHeader, AboutBanner ,AboutTeam, AboutReview} from "../containerAbout";
 
 function About() {
   return (
@@ -6,6 +6,7 @@ function About() {
       <AboutHeader />
       <AboutBanner/>
       <AboutTeam/>
+      <AboutReview/>
     </>
   );
 }

@@ -1,4 +1,7 @@
-.custom__button{
+body {
+  overflow-x: hidden;
+}
+.custom__button {
   width: 120px;
   height: 37px;
   border-radius: 8px;
@@ -11,15 +14,13 @@
   cursor: pointer;
 }
 
-.price-tag{
+.price-tag {
   color: var(--color-brown);
   font-weight: 700;
 }
 
 @media screen and (max-width: 1150px) {
-  .custom__button{
+  .custom__button {
     font-size: 0.9rem;
   }
 }
-
-
