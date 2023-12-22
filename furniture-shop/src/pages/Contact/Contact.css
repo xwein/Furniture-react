@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
   gap: 4rem;
 }
 .app__contact-container_form {
@@ -39,6 +40,7 @@ input {
   border: none;
   height: 35px;
   width: 300px;
+  overflow: scroll;
 }
 
 #message {
@@ -49,26 +51,97 @@ input {
   width: 636px;
 }
 
-.app__contact-container_links{
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-    background-color: var(--color-white);
-    padding: 1.5rem;
+.app__contact-container_links {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: var(--color-white);
+  padding: 1.5rem;
 }
 
-.app__contact-container_links-wrapper{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.app__contact-container_links-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app__contact-container_links-wrapper_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  
 }
 
 .app__contact-container_links-wrapper_icons{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .app__contact-container {
+    padding: 1rem;
+    width: 750px;
+    gap: 1rem;
+  }
+
+  label input {
+    width: 200px;
+  }
+
+  #message input {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .app__contact-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    width: 100%;
-    gap: 10px;
+    height: auto;
+    width: 360px;
+    padding-top: 1rem;
+  }
+
+  .app__contact-container_form{
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    
+  }
+
+  label input {
+    width: 300px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  label{
+    align-content: flex-start;
+
+  }
+
+  #message input {
+    width: 300px;
+    height: 80px;
+  }
+
+  .app__contact-container_links{
+    width: 360px;
+    height: 280px;
+    align-self: flex-start;
+    margin-top: 1rem;
+  }
+
+  .app__contact-container{
+    padding: 0;
+  }
 }
