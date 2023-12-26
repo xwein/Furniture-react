@@ -1,13 +1,11 @@
-import { BlogPosts} from "../containerBlog";
-
+import { BlogPage } from "../containerBlog";
 
 function Blog() {
+  return (
+    <>
+      <BlogPage />
+    </>
+  );
+}
 
-    return (
-      <>
-      <BlogPosts/>
-      </>
-    )
-  }
-  
-  export default Blog
+export default Blog;

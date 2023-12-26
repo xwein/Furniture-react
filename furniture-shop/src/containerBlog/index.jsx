@@ -1,4 +1,4 @@
-import BlogPosts from './BlogPosts/BlogPosts';
+import BlogPage from './BlogPosts/BlogPage';
 
 
 
@@ -6,5 +6,5 @@ import BlogPosts from './BlogPosts/BlogPosts';
 
 
 export {
-  BlogPosts
+  BlogPage
 };

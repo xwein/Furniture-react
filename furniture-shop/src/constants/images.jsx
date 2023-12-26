@@ -54,6 +54,14 @@ import contactFacebook from "../assets/contact-facebook.png";
 import contactWhatsapp from "../assets/contact-whatsapp.png";
 import contactTwitter from "../assets/contact-twitter.png";
 import contactLinkedin from "../assets/contact-linkedin.png";
+import blogPost1 from "../assets/blogpost1.jpg";
+import blogPost2 from "../assets/blogpost2.jpg";
+import blogPost3 from "../assets/blogpost3.jpg";
+import blogPost4 from "../assets/blogpost4.png";
+import blogPost5 from "../assets/blogpost5.png";
+import blogPost6 from "../assets/blogpost6.png";
+import arrowIcon from "../assets/arrow-icon.png";
+
 
 export default {
   header,
@@ -112,4 +120,11 @@ export default {
   contactWhatsapp,
   contactTwitter,
   contactLinkedin,
+  blogPost1,
+  blogPost2,
+  blogPost3,
+  blogPost4,
+  blogPost5,
+  blogPost6,
+  arrowIcon,
 };

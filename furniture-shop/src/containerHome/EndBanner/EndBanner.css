@@ -41,9 +41,6 @@
   padding: 0 20%;
 }
 
-.app__brandLogo-container img {
-  width: 100%;
-}
 
 @media screen and (max-width: 1150px) {
   .app__EndBanner {
