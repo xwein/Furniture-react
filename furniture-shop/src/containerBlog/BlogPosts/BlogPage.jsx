@@ -20,7 +20,7 @@ const BlogPage = () => {
   return (
     <div className="app__blogPage">
       <div className="app__aboutHeader-intro">
-        <h1>Blog</h1>
+        <h1>Blogs</h1>
         <p>
           We display products based on the latest items we have. If you want to
           see our older products, please enter the name of the item.

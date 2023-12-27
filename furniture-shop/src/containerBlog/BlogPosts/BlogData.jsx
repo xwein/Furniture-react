@@ -4,7 +4,7 @@ const blogData = [
   {
     id: 1,
     image: images.blogPost1,
-    date: "26 Aug 2023",
+    date: "26 Aug, 2023",
     category: "Newest, Living Room, Contemporary",
     author: "Michele Anna",
     title: "Embracing Contemporary Living Room Furniture",
@@ -14,7 +14,7 @@ const blogData = [
   {
     id: 2,
     image: images.blogPost2,
-    date: "15 Sep 2023",
+    date: "15 Sep, 2023",
     category: "Bedroom, Rustic, Cozy",
     author: "John Doe",
     title: "Creating a Cozy Retreat with Rustic Bedroom Furniture",
@@ -24,7 +24,7 @@ const blogData = [
   {
     id: 3,
     image: images.blogPost3,
-    date: "02 Oct 2023",
+    date: "02 Oct, 2023",
     category: "Outdoor, Patio, Relaxation",
     author: "Emily Johnson",
     title: "Elevating Outdoor Relaxation with Patio Furniture",
@@ -34,7 +34,7 @@ const blogData = [
   {
     id: 4,
     image: images.blogPost4,
-    date: "18 Oct 2023",
+    date: "18 Oct, 2023",
     category: "Office, Modern, Productivity",
     author: "Alex Carter",
     title: "Optimizing Productivity with Modern Office Furniture",
@@ -44,7 +44,7 @@ const blogData = [
   {
     id: 5,
     image: images.blogPost5,
-    date: "05 Nov 2023",
+    date: "05 Nov, 2023",
     category: "Dining Room, Classic, Elegance",
     author: "Sophie Miller",
     title: "Achieving Timeless Elegance with Classic Dining Room Furniture",
@@ -54,7 +54,7 @@ const blogData = [
   {
     id: 6,
     image: images.blogPost6,
-    date: "12 Dec 2023",
+    date: "12 Dec, 2023",
     category: "Home Office, Stylish, Productivity",
     author: "Sarah Thompson",
     title: "Creating a Stylish and Productive Home Office Space",
