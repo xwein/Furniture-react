@@ -61,6 +61,7 @@ import blogPost4 from "../assets/blogpost4.png";
 import blogPost5 from "../assets/blogpost5.png";
 import blogPost6 from "../assets/blogpost6.png";
 import arrowIcon from "../assets/arrow-icon.png";
+import searchIcon from "../assets/search-icon.png";
 
 
 export default {
@@ -127,4 +128,5 @@ export default {
   blogPost5,
   blogPost6,
   arrowIcon,
+  searchIcon,
 };
